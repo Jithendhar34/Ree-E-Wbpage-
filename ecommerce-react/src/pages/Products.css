@@ -1,0 +1,20 @@
+/* Products.css */
+
+/* Set the background color for the entire products page */
+.products-page {
+    background-color: #f1f1f1; /* Light gray background for the whole page */
+  }
+  
+  /* Style for the product card */
+  .product-card {
+    background-color: #f8f9fa; /* Light gray color for the product card */
+    border-radius: 8px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .product-card:hover {
+    background-color: #e6f7ff; /* Light blue on hover */
+    transform: scale(1.05); /* Slight zoom-in effect */
+    box-shadow: 0 0.8rem 1.5rem rgba(0, 0, 0, 0.1);
+  }
+  

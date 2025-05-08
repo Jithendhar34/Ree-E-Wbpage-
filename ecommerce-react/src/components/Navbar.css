@@ -1,0 +1,19 @@
+/* Hover effect for navbar buttons */
+.navbar .nav-item .btn:hover {
+    background-color: #343a40;  /* Darker background on hover */
+    color: #f8f9fa;  /* White text on hover */
+  }
+  
+  /* Optional: Change the background of the search bar when hovered */
+  .search-bar:hover {
+      background-color: #f1f1f1; /* Example hover background */
+      border-color: #ccc; /* Example hover border color */
+  }
+  /* Full Page Background Wrapper */
+.home-page {
+    background-color: #eaf1f8; /* Light blue-gray, easy on the eyes */
+    min-height: 100vh;         /* Ensure it fills the full vertical space */
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  
